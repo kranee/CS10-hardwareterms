@@ -74,3 +74,32 @@ img.bottomright {
 	margin-right: 10px;
 	border: 5px solid #293241;
 }
+
+a.up {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 20px;
+	right: 20px;
+	background: #293241;
+	border: 5px solid #293241;
+	padding: 10px;
+	
+	text-align: center;
+	color: white;
+	font-size: 47px;
+}
+
+a.up:hover {
+	color: #293241;
+	background: #abc4ff;
+	border: 5px solid #293241;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a.toc:hover {
+	color: black;
+}
